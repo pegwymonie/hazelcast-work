@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: prometheus
+data:
+  prometheus.yml: |-
+{{ include "prometheus-config" $.Values.targets | indent 4}}
+
+
+

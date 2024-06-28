@@ -1,0 +1,6 @@
+apiVersion: v2
+name: hazelcast-community-monitor
+description: A Helm Chart designed to help monitor the deployments of the community edition of hazelcast.
+type: application
+version: 0.2.0
+appVersion: "1.17.0"
